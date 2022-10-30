@@ -4,6 +4,7 @@ In general, we consider that the changes in stock market capitalization reflect 
 
 
 Group Members:
+
 Zi Ye
 21-737-119
 zi.ye@uzh.ch
