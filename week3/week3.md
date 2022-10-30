@@ -89,7 +89,7 @@ git commit -m "first-working"
 
 7. Undo the previous commit using `git revert`, makes sure `functions.py` does exist and the line reads 'THIS IS GOOD';
 ```
-git revert 
+git revert HEAD
 ```
 8. Create a remote repo on Github/Bitbucket and link your local repo to it;
 9. Push all the commits to the remote;
