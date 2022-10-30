@@ -1,0 +1,2 @@
+sudo crontab -e <your_username>
+0 17 */5 * * ./runner.sh 'hello' >/dev/null 2>&1
