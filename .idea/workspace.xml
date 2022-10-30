@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bde0bda6-d985-4b04-9cca-9b2a348d3227" name="变更" comment="Bob">
+      <change beforePath="$PROJECT_DIR$/Week5/Week5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Week5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/time.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Homework" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gs4qzNLEFFXEIolffcCqODWDTg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week5" />
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week6" />
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week1" />
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bde0bda6-d985-4b04-9cca-9b2a348d3227" name="变更" comment="" />
+      <created>1667164153820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667164153820</updated>
+      <workItem from="1667164156325" duration="356000" />
+      <workItem from="1667164537386" duration="514000" />
+      <workItem from="1667165071912" duration="3609000" />
+    </task>
+    <task id="LOCAL-00001" summary="xxx">
+      <created>1667164703343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667164703343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xxx">
+      <created>1667164829253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667164829253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bob">
+      <created>1667165257827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667165257827</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bob">
+      <created>1667165857944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667165857944</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bob">
+      <created>1667166085243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667166085243</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bob">
+      <created>1667166642615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667166642615</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bob">
+      <created>1667167721999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667167721999</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bob">
+      <created>1667167789207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667167789207</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Bob">
+      <created>1667167913173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667167913173</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xxx" />
+    <MESSAGE value="Bob" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bob" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Digital_Tools_for_Finance$Week5.coverage" NAME="Week5 覆盖结果" MODIFIED="1667168704334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5" />
+  </component>
+</project>
