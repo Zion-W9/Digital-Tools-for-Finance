@@ -30,3 +30,5 @@ pq.write_table(table, 'Homework5.parquet')
 
 print('Parquet time:')
 print(time.perf_counter()-start3)
+
+# We can use both "git lfs" and Pycharm command to upload the data
