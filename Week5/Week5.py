@@ -26,7 +26,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 start3 =time.perf_counter()
 table = pa.Table.from_pandas(df, preserve_index=False)
-pq.write_table(table, 'Parquet')
+pq.write_table(table, 'Homework5.parquet')
 
 print('Parquet time:')
 print(time.perf_counter()-start3)
