@@ -2,13 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bde0bda6-d985-4b04-9cca-9b2a348d3227" name="变更" comment="Bob">
-      <change beforePath="$PROJECT_DIR$/Week5/Week5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Week5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/time.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2, coding environment/Week2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2, coding environment/coding-environment-exercise.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/coding environment/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/coding environment/coding-environment-exercise.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/commands.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/commands.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/getting-started.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/getting-started.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/make.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/data/make_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/data/make_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/features/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/features/build_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/features/build_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/predict_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/predict_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/visualization/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/visualization/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/visualization/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/visualization/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/test_environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/test_environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/project environment/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/tox.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -27,22 +69,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Code/Python/Homework/Digital-Tools-for-Finance/Week2/coding environment",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week2\coding environment" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week5" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week6" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week1" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Week2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Digital-Tools-for-Finance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2/2, coding environment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2/2, coding environment/Week2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Week2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +129,8 @@
       <updated>1667164153820</updated>
       <workItem from="1667164156325" duration="356000" />
       <workItem from="1667164537386" duration="514000" />
-      <workItem from="1667165071912" duration="3609000" />
+      <workItem from="1667165071912" duration="6652000" />
+      <workItem from="1667208094292" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1667164703343</created>
@@ -119,7 +195,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667167913173</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Bob">
+      <created>1667168842152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667168842152</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bob">
+      <created>1667168944801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667168944801</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Bob">
+      <created>1667169027417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667169027417</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Bob">
+      <created>1667169134464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667169134464</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Bob">
+      <created>1667208157407</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667208157407</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +253,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Bob" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_Tools_for_Finance$Week5.coverage" NAME="Week5 覆盖结果" MODIFIED="1667168704334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5" />
+    <SUITE FILE_PATH="coverage/Digital_Tools_for_Finance$Week6.coverage" NAME="Week6 覆盖结果" MODIFIED="1667171104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6" />
+    <SUITE FILE_PATH="coverage/Digital_Tools_for_Finance$Week5.coverage" NAME="Week5 覆盖结果" MODIFIED="1667169005937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5" />
+    <SUITE FILE_PATH="coverage/Digital_Tools_for_Finance$Week2.coverage" NAME="Week2 覆盖结果" MODIFIED="1667212019633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2/2, coding environment" />
   </component>
 </project>
