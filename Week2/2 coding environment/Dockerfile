@@ -5,4 +5,4 @@ COPY . .
 
 RUN pip install pandas matplotlib
 
-CMD ["python", "./plotdata.py"]
+CMD ["python", "./Week2.py"]

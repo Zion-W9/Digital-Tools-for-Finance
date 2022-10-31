@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde0bda6-d985-4b04-9cca-9b2a348d3227" name="变更" comment="Bob">
-      <change afterPath="$PROJECT_DIR$/Week2/2, coding environment/Week2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/2, coding environment/coding-environment-exercise.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/coding environment/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/coding environment/coding-environment-exercise.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/commands.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/commands.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/getting-started.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/getting-started.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/docs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/docs/make.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/data/make_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/data/make_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/features/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/features/build_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/features/build_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/predict_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/predict_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/models/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/models/train_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/visualization/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/visualization/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/src/visualization/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/src/visualization/visualize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/test_environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/test_environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/project environment/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/1, project environment/tox.ini" afterDir="false" />
-    </list>
+    <list default="true" id="bde0bda6-d985-4b04-9cca-9b2a348d3227" name="变更" comment="Bob" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,21 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Code/Python/Homework/Digital-Tools-for-Finance/Week2/coding environment",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/Python/Homework/Digital-Tools-for-Finance/Week2/2, coding environment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week2\2, coding environment" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week2\coding environment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week2\2, coding environment\data" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week5" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week6" />
       <recent name="E:\Code\Python\Homework\Digital-Tools-for-Finance\Week1" />
@@ -130,7 +105,7 @@
       <workItem from="1667164156325" duration="356000" />
       <workItem from="1667164537386" duration="514000" />
       <workItem from="1667165071912" duration="6652000" />
-      <workItem from="1667208094292" duration="3470000" />
+      <workItem from="1667208094292" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1667164703343</created>
@@ -230,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667208157407</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Bob">
+      <created>1667212545100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667212545100</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
