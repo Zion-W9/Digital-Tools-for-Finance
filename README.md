@@ -14,13 +14,14 @@ In general, we consider that the changes in stock market capitalization reflect 
 ## Table of Contents / Submission Requirements
 | task    | topic
 | ----    | ----
-| hosted as a single repository on Github  | you are [here](https://github.com/Zion-W9/Digital-Tools-for-Finance) 
-| having a well defined and concise structure  | Hopefully done
-| having a history of commits and merges  | take a look [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/network) 
-| a database with an API and possibility to update data  | [here]()
-| featuring a paper written in LaTeX ...  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/paper)
-| a beamer presentation where figures adhere to the visualization standards | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/beamer)
-| one interactive app or jupyter Notebook | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/notebooks)
+| a repository on github  | you are [here](https://github.com/Zion-W9/Digital-Tools-for-Finance) 
+| a tidy folder and file structure  | Hopefully done
+| an informative README file  | take a look [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/README.md) 
+| environment that can be cloned  | [here]()
+| a well maintained data management routine  | [here]()
+| a short .pdf with the findings, compiled from latex code  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/paper)
+| a .pdf with the presentation that you could use in a conference | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/beamer)
+| one app for the user to scrutinize the findings | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/notebooks)
 
 ## Group Members:
 
