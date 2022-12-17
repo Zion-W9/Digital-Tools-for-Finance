@@ -13,18 +13,18 @@ Does the stock market capitalization grow faster than the GDP?
 In general, we consider that the changes in stock market capitalization reflect GDP. Whether stocks go up or down affects people's consumption, which ultimately affects GDP. But this is just one example of how stocks affect GDP. We don't the exact correlation between them. Therefore, we think this topic will be meaningful. At the same time, relevant data will be easier to find.
 
 ## Structure of Project
-.
-├── project
-│   ├── data                # Data used for our project
-│   ├── src                 # Code that performs analysis
-│   │   └── figures         # figures outputted from code
-│   ├── notebooks           # interactive app(jupyternotebook)
-│   ├── latex               # Latex files
-│   │   ├── beamer          # Presentation of project
-|   |   |   └── figures     # figures in the presentation
-│   │   └── paper           # Report of project
-|   |       └── figures     # figures in the report paper
-└── README.md
+    .
+    ├── project
+    │   ├── data                # Data used for our project
+    │   ├── src                 # Code that performs analysis
+    │   │   └── figures         # figures outputted from code
+    │   ├── notebooks           # interactive app(jupyternotebook)
+    │   └── latex               # Latex files
+    │       ├── beamer          # Presentation of project
+    |       |   └── figures     # figures in the presentation
+    │       └── paper           # Report of project
+    |           └── figures     # figures in the report paper
+    └── README.md
 
 ## Table of Contents / Submission Requirements
 | task    | topic
