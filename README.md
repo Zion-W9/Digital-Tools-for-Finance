@@ -34,16 +34,11 @@ In general, we consider that the changes in stock market capitalization reflect 
 | an informative README file  | take a look [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/README.md) 
 | environment that can be cloned  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/project/notebooks/Environment_DTF.yaml)
 | a well maintained data management routine  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/main/project/data)
-| a short .pdf with the findings, compiled from latex code  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/paper)
-| a .pdf with the presentation that you could use in a conference | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/beamer)
-| one app for the user to scrutinize the findings | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/notebooks)
+| a short .pdf with the findings, compiled from latex code  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/main/project/latex/paper)
+| a .pdf with the presentation that you could use in a conference | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/main/project/latex/beamer)
+| one app for the user to scrutinize the findings | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/project/notebooks/Final_project.ipynb)
 
 ## Group Members:
-
-Zi Ye
-21-737-119
-zi.ye@uzh.ch
-
 Jincan Wang
 21-739-685
 jincan.wang@uzh.ch
@@ -55,3 +50,7 @@ siyang.tian@uzh.ch
 Zeen Wang
 21-741-038
 zeen.wang@uzh.ch
+
+Zi Ye
+21-737-119
+zi.ye@uzh.ch
