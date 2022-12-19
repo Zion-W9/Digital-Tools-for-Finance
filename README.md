@@ -10,7 +10,8 @@ The branch `main` is used for our final project, which is intended to practice a
 
 
 ## Project Topic
-Does the stock market capitalization grow faster than the GDP?
+Correlation between stock market and GDP:
+empirical evidence from Switzerland
 
 ## Project description
 In general, we consider that the changes in stock market capitalization reflect GDP. Whether stocks go up or down affects people's consumption, which ultimately affects GDP. But this is just one example of how stocks affect GDP. We don't the exact correlation between them. Therefore, we think this topic will be meaningful. At the same time, relevant data will be easier to find.
@@ -31,8 +32,8 @@ In general, we consider that the changes in stock market capitalization reflect 
 | a repository on github  | you are [here](https://github.com/Zion-W9/Digital-Tools-for-Finance) 
 | a tidy folder and file structure  | Hopefully done
 | an informative README file  | take a look [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/README.md) 
-| environment that can be cloned  | [here]()
-| a well maintained data management routine  | [here]()
+| environment that can be cloned  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/blob/main/project/notebooks/Environment_DTF.yaml)
+| a well maintained data management routine  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/main/project/data)
 | a short .pdf with the findings, compiled from latex code  | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/paper)
 | a .pdf with the presentation that you could use in a conference | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/latex/beamer)
 | one app for the user to scrutinize the findings | [here](https://github.com/Zion-W9/Digital-Tools-for-Finance/tree/master/notebooks)
