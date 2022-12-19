@@ -10,6 +10,16 @@
 \usepgfplotslibrary{dateplot}
 \graphicspath{{images/}{../images/}}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{Antibes}}\xspace}
 
@@ -63,8 +73,12 @@ This study uses quarterly GDP growth rates and stock price from the OECD. The st
 price is standardized with 2015=100. This study period is from 1960Q2 to 2022Q3. Also, we removed rows with missing values to keep the data frame tidy.
 \\
 The original data can be downloaded from here:
-
-\begin{center}\url{https://github.com/Zion-W9/Digital-Tools-for-Finance}\end{center}
+    \begin{center}
+        \href{https://data.oecd.org/gdp/quarterly-gdp.htm}{[Quarterly-GDP]} 
+    \end{center}
+    \begin{center}
+        \href{https://data.oecd.org/price/share-prices.htm}{[Share-Prices]} 
+    \end{center}
 
 Processed data is here:
 
