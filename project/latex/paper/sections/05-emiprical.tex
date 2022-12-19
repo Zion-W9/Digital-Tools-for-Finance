@@ -1,0 +1,106 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+\section{Empirical Analysis}
+
+\subsection{Data and Model}
+This study uses quarterly GDP growth rates and stock price from the OECD. The stock price is standardized with 2015=100. This study period is from  1960Q2 to 2022Q3. Also, we removed rows with missing values to keep the data frame tidy.
+
+Based on the topics we explored, we constructed the following model:
+
+$$R_{Index} = \alpha + \beta * R_{GDP,t+3} + \varepsilon $$
+
+Among them, $R_{Index}$ is the quarterly growth rate of the stock index, and $R_{GDP,t+3}$ is the quarterly growth rate of GDP. Since the share price may respond to GDP changes in advance, we choose GDP data for three periods in advance.
+
+\subsection{Results}
+In the long run, the relationship between GDP and stock markets in OECD countries is not always consistent. As shown in the Figure 1 & 2, most of the changes in the stock price are in the same direction as the changes in $R_{GDP,t+3}$, but the magnitude of the changes greater than the change in GDP.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.68]{"OECD1"}
+\caption{Relationship between GDP and stock market}
+\label{OECD Lines 1}
+\end{figure}
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.68]{"OECD2"}
+\caption{Relationship between GDP and stock market continued}
+\label{OECD Lines 2}
+\end{figure}
+
+Switzerland is one of the most important financial markets in the world, with relatively open and transparent market information, making it a reasonable and typical research sample. Therefore, we used Switzerland as an example to perform regression.
+
+The following Table 1 is the descriptive statistics of the sample. As far as Switzerland is concerned, GDP fluctuates around -7\% to 7\%, with an average of 0.55\% and a standard deviation of 1.23, indicating that Switzerland's GDP growth is relatively stable. In Switzerland, the change in the stock market is greater than GDP, with an average of 1.59\%, which is more consistent with the previous conclusion drawn from the chart, that is, the change in the stock market is greater than GDP.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=1]{"EA2"}
+\caption{Regression Results}
+\label{regression}
+\end{figure}
+
+In order to further explore the relationship between the two, we regressed the model and obtained the Figure 3, from which it can be observed that there is indeed a certain correlation between the two.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.8]{"reg"}
+\caption{Regression Results Table}
+\label{regression table}
+\end{figure}
+
+Regarding to the results or regression (Figure 4), the coefficient of $R_{GDP,t+3}$ is 0.0250, which is significant within the 95\% confidence interval, which means that according to our model, for every 1\% increase of GDP in t+3 period, the stock index will increase by 0.0250\% in t period. This result is in line with our expectation. The stock index is positively correlated with the growth of GDP, but the growth rate is much smaller than that of GDP.
+
+\begin{table}[H]
+\centering
+\caption{Statistical Summary}
+\scalebox{0.68}{
+\begin{tabular}{lrrrrrrrr}
+\\[-1.8ex]\hline 
+\toprule
+{} & \multicolumn{4}{c}{GDPGrowthRate} & \multicolumn{4}{c}{SharePriceGrowthRate} \\
+Location &            max &        min &      mean &       std &                   max &        min &      mean &        std \\
+\\[-1.8ex]\hline 
+\midrule
+AUS      &       4.418806 &  -7.020018 &  0.837857 &  1.181453 &             21.642014 & -38.676460 &  1.704898 &   7.538439 \\
+AUT      &      11.232721 & -11.243786 &  0.673663 &  1.447553 &             57.487021 & -45.421095 &  1.539374 &   9.111118 \\
+BEL      &      11.731267 & -11.397832 &  0.645568 &  1.271786 &             20.089567 & -30.939630 &  1.654958 &   7.582937 \\
+CAN      &       8.983958 & -11.042537 &  0.759495 &  1.262450 &             20.383706 & -31.094573 &  1.672189 &   6.875763 \\
+CHE      &       7.315925 &  -7.047209 &  0.551725 &  1.234857 &             17.589432 & -28.668096 &  1.593233 &   7.103834 \\
+CHL      &       6.665278 & -12.951959 &  0.905039 &  1.927714 &             21.824056 & -17.105582 &  1.756754 &   7.070759 \\
+CZE      &       6.953209 &  -8.848739 &  0.627159 &  1.416782 &             24.297158 & -37.608644 &  0.918629 &   9.607779 \\
+DEU      &       9.004695 &  -9.481134 &  0.578807 &  1.366080 &             25.897645 & -27.259745 &  1.248174 &   7.810234 \\
+DNK      &       5.776993 &  -6.312451 &  0.578683 &  1.173001 &             24.147734 & -32.588907 &  2.724747 &   7.863246 \\
+ESP      &      16.637934 & -17.826256 &  0.802796 &  1.908249 &             42.641475 & -20.891714 &  2.022089 &   9.644056 \\
+EST      &       4.775670 & -11.798107 &  0.972202 &  2.038534 &             63.787282 & -38.600189 &  3.964411 &  15.021136 \\
+FIN      &       6.094493 &  -6.477614 &  0.681190 &  1.510952 &             51.582402 & -29.403193 &  2.596351 &  10.345035 \\
+FRA      &      18.351564 & -13.523350 &  0.654490 &  1.862877 &             25.503985 & -27.777780 &  1.642906 &   8.156255 \\
+GBR      &      16.608614 & -20.991373 &  0.583703 &  1.944663 &             42.213488 & -23.731214 &  1.974376 &   7.642617 \\
+GRC      &      10.427888 & -13.317789 &  0.664010 &  2.683935 &             82.429455 & -38.075847 &  3.418555 &  17.401837 \\
+HUN      &      11.900000 & -14.400000 &  0.647653 &  2.032294 &             43.123207 & -35.489609 &  3.880780 &  12.070427 \\
+IRL      &      21.018326 &  -5.529750 &  1.254536 &  2.358158 &             41.199881 & -38.845606 &  2.351390 &   9.342773 \\
+ISL      &      10.067048 &  -9.839834 &  0.916751 &  2.333316 &             26.033609 & -71.236371 &  2.704795 &  12.284945 \\
+ISR      &       9.039196 &  -8.797409 &  0.991620 &  1.574280 &             28.047522 & -26.934116 &  2.442914 &   8.484191 \\
+ITA      &      14.476293 & -12.101330 &  0.572454 &  1.614337 &             41.689458 & -26.205626 &  1.489691 &  10.221810 \\
+JPN      &       5.697546 &  -7.938036 &  0.866606 &  1.439967 &             25.163725 & -29.888141 &  1.600391 &   8.079274 \\
+KOR      &       8.061462 &  -6.818022 &  1.732345 &  1.976849 &             37.779478 & -32.305365 &  2.579035 &  11.191628 \\
+LUX      &       8.319050 &  -7.017609 &  0.875735 &  1.531374 &             32.698002 & -51.003169 &  0.648093 &  11.797765 \\
+LVA      &       5.748584 &  -6.995186 &  0.885956 &  2.286839 &             31.419969 & -33.997673 &  3.032875 &   9.713881 \\
+MEX      &      13.653575 & -17.959204 &  0.887413 &  1.890981 &            100.788728 & -51.124216 &  7.691543 &  18.606206 \\
+NLD      &       8.940364 &  -7.904426 &  0.678117 &  1.530104 &             18.927776 & -34.219933 &  1.407653 &   7.523131 \\
+NOR      &       4.434557 &  -5.414676 &  0.761621 &  1.214504 &             33.991223 & -39.924935 &  3.005149 &  10.131584 \\
+NZL      &      13.675110 & -10.393865 &  0.653112 &  1.704997 &             17.646552 & -35.670873 &  0.519457 &   6.737128 \\
+POL      &       6.764794 &  -9.206071 &  1.013821 &  1.584297 &             34.294900 & -28.498625 &  2.329534 &  10.107595 \\
+PRT      &      14.588001 & -15.119497 &  0.765960 &  1.823479 &             27.409212 & -24.367060 &  1.531018 &   9.085552 \\
+SVK      &       9.207307 &  -9.739807 &  0.914681 &  1.955863 &            174.737950 & -20.295488 &  2.147537 &  18.652152 \\
+SVN      &      12.617891 &  -9.888565 &  0.677273 &  2.027889 &             30.793790 & -35.311504 &  1.928949 &  10.093353 \\
+SWE      &       7.325353 &  -8.058830 &  0.639892 &  1.406531 &             39.093618 & -25.190601 &  2.683303 &   8.703745 \\
+TUR      &      15.649318 & -10.371753 &  1.161359 &  2.806978 &             90.295744 & -31.817736 &  5.707367 &  17.528920 \\
+USA      &       7.854483 &  -8.484336 &  0.766620 &  1.149958 &             20.519865 & -30.435154 &  1.764790 &   6.110438 \\
+\bottomrule
+\\[-1.8ex]\hline 
+\end{tabular}
+}
+\end{table}
+
+\end{document}
